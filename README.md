@@ -1,12 +1,44 @@
-# Django Event Management System.
+# Event Management System
+![Event Management System](https://user-images.githubusercontent.com/92677342/201507545-7f4b62dd-e31a-4f77-9777-71734b620ce7.png)
 
-## How To Setup On Linux
-1. Clone This Project `git clone https://github.com/DikshaKumari01/EVENT-MANAGEMENT.git`
-2. Go to Project Directory `cd django-event-management`
-3. Create a Virtual Environment `python -m venv env`
-4. Activate Virtual Environment `source env/bin/activate`
-5. Install Requirements Package `pip install -r requirements.txt`
-6. Migrate Database `python manage.py migrate`
-7. Create Super User `python manage.py createsuperuser`
-8. Finally Run The Project `python manage.py runserver`
 
+## Technologies Used :
+
+- Flask / Python
+- MySQL
+- HTML5
+
+## ER Diagram
+![ER-Diagram](https://user-images.githubusercontent.com/92677342/201560821-96115972-5b09-4cb1-8c4e-c367c2ce047f.png)
+
+
+## Creating the environment
+
+```
+$ git clone https://github.com/TanmayPatil105/event-management-system.git
+```
+
+```
+$ sudo mysql -uroot -p
+```
+
+
+`Create the database by copying the contents of ./database/events.sql and executing them`
+
+
+`Change password in app.py to your MySQL root password`
+
+## Installing Dependencies
+
+```
+$ pip install -r requirements.txt
+```
+
+## Running the project
+
+```
+$ flask run
+```
+
+
+- `Open` [http://127.0.0.1:5000](http://127.0.0.1:5000)
