@@ -34,11 +34,4 @@ $ sudo mysql -uroot -p
 $ pip install -r requirements.txt
 ```
 
-## Running the project
 
-```
-$ flask run
-```
-
-
-- `Open` [http://127.0.0.1:5000](http://127.0.0.1:5000)
