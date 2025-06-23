@@ -15,7 +15,7 @@
 ## Creating the environment
 
 ```
-$ git clone https://github.com/TanmayPatil105/event-management-system.git
+$ git clone https://github.com/DikshaKumari01/EVENT-MANAGEMENT git
 ```
 
 ```
